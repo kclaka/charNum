@@ -4,9 +4,9 @@ using namespace std;
 
 int main() {
 
-    int i = 0;
+    int i = 97;
     while(i < 123){
-        cout<< char('a' + i )<<"\t"<< int(char('a' + i))<<endl;
+        cout<< char(i)<<"\t"<< i<<endl;
         ++i;
     }
 
